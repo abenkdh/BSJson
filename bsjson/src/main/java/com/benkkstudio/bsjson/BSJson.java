@@ -37,7 +37,7 @@ public class BSJson {
             @Override
             public void onSuccess(int statusCode, Header[] headers, byte[] responseBody) {
                 if (bsJsonOnSuccessListener != null) {
-                    bsJsonOnSuccessListener.onSuccess(statusCode, headers, responseBody);
+                    bsJsonOnSuccessListener.onSuccess(statusCode);
                 }
             }
 
